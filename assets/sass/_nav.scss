@@ -1,0 +1,19 @@
+#nav {
+  #nav-menu {
+    ul {
+      li a {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $TextColor;
+        padding: 26px 15px;
+        transition: 0.5s;
+        &:hover {
+          color: $praimaryColor;
+          background-color: $blackColor;
+        }
+      }
+    }
+  }
+}
